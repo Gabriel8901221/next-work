@@ -1,5 +1,6 @@
 import About from '@/components/About'
 import Cta from '@/components/Cta'
+import Pricing from '@/components/Ctlg'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
@@ -13,6 +14,7 @@ const page = () => {
       <Hero />
       <About />
       <Services />
+      <Pricing />
       <Cta />
       <Footer />
     </div>

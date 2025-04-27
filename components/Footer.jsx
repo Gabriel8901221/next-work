@@ -47,6 +47,14 @@ const Footer = () => {
                   Serviços
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="#pricing"
+                  className="text-gray-400 hover:text-green-500"
+                >
+                  Nossos Planos
+                </Link>
+              </li>
             </ul>
           </div>
 

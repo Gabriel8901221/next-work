@@ -22,17 +22,18 @@ const Header = () => {
 
   return (
     <div>
-       <div className="w-full h-20  flex justify-between items-center  px-10 md:px-30  backdrop-blur-sm">
+       <div className="w-full h-20  flex justify-between items-center  px-10 md:px-30 ">
       <Image
         src={logo}
         alt="Logo"
         width={200}
         height={200}
       />
-      <div className="hidden md:flex items-center gap-8">
+      <div className="hidden md:flex items-center gap-6">
         <a className="text-white  hover:text-green-400 transition ease-in-out"  href="#hero">Inico</a>
         <a className="text-white  hover:text-green-400 transition ease-in-out" href="#about">Sobre nós</a>
         <a className="text-white  hover:text-green-400 transition ease-in-out" href="#Services">Serviços</a>
+        <a className="text-white  hover:text-green-400 transition ease-in-out" href="#pricing">Nossos Planos</a>
       </div>
       
       <a href="https://wa.me/556696989663" className=" hidden md:block bg-green-400 cursor-pointer hover:bg-green-600 transition ease-in-out text-white px-10 py-2 rounded  font-bold ">Contato</a>
