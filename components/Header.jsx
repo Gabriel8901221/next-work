@@ -90,6 +90,13 @@ const Header = () => {
     </a>
     <a
       onClick={() => setShowMobileMenu(false)}
+      href="#pricing"
+      className="px-4 py-2 rounded-full inline-block"
+    >
+      Nossos Planos
+    </a>
+    <a
+      onClick={() => setShowMobileMenu(false)}
       href="https://wa.me/556696989663"
       target="_blank"
       className="px-6 bg-green-500 py-2 rounded inline-block"
